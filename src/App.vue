@@ -13,6 +13,7 @@
   </div>
 </template>
 <script>
+ 
 export default {
   data() {
     return { showBack: false };
@@ -31,6 +32,7 @@ export default {
         this.showBack = false;
       }
     };
+    this.initTheme();
   },
   methods: {
     goTop() {
@@ -43,6 +45,24 @@ export default {
         }
       }, 15);
     },
+    initTheme() {
+      document.querySelector("body").className = this.theme;
+    },
+  },
+  computed: {
+    theme() {
+      return this.$store.getters.theme;
+    },
+  },
+  watch:{
+    theme:{
+      handler(val,oldVal){
+        if(val!==oldVal){
+               document.querySelector("body").className = this.theme;
+
+        }
+      }
+    }
   },
 };
 </script>

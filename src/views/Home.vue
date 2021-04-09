@@ -1,16 +1,17 @@
 <template>
   <div class="home">
     <ListItem />
-     <ListItem />
-      <ListItem />
-       <ListItem />
-        <ListItem />
-         <ListItem />
-          <ListItem />
-           <ListItem />
-            <ListItem />
-             <ListItem />
-              <ListItem /> <ListItem /> <ListItem /> <ListItem /> <ListItem />
+    <ListItem />
+    <ListItem />
+    <ListItem />
+    <ListItem />
+    <ListItem />
+    <ListItem />
+    <ListItem />
+    <ListItem />
+    <ListItem />
+    <ListItem />
+    <ListItem />
   </div>
 </template>
 
