@@ -5,6 +5,7 @@
         <router-link :to="item.path" class="text-color">{{ item.title }}</router-link>
       </li>
     </ul>
+    
   </div>
 </template>
 <script>
