@@ -9,7 +9,8 @@ const mutations = {
     },
     CHANGE_THEME: (state, color) => {
         state.theme = color;
-    }
+    },
+    
 
 }
 const actions = {
