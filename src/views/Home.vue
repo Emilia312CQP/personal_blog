@@ -12,6 +12,7 @@
     <ListItem />
     <ListItem />
     <ListItem />
+    <!-- 修改了check1 -->
   </div>
 </template>
 
