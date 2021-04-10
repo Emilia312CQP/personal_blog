@@ -1,0 +1,135 @@
+@media screen and (min-width: 719px) {
+     .header {
+        .san-dao-gang {
+            display: none !important;
+        }
+
+        .search-input {
+            display: none !important;
+        }
+
+        .showing-in-small {
+            display: block;
+        }
+
+        #nav {
+            display: block !important;
+        }
+
+    }
+
+}
+
+@media screen and (min-width: 959px) {
+    .header {
+        .san-dao-gang {
+            display: none !important;
+        }
+
+        .search-input {
+            display: block !important;
+        }
+
+        .showing-in-small,
+        .active-input-shwoing-in-small {
+            display: none !important;
+        }
+
+        #nav {
+            display: block !important;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header {
+        .san-dao-gang {
+            display: block !important;
+        }
+
+        .can-hide {
+            display: none !important;
+        }
+
+        .search-input {
+            display: none !important;
+        }
+
+        .showing-in-small {
+            display: block;
+        }
+
+        #nav {
+            display: none !important;
+        }
+
+        .active-input-showing-in-small {
+            ::v-deep .ivu-input {
+                width: 180px !important;
+
+            }
+        }
+
+    }
+
+    .layout-index {
+        >.flex-between-center {
+            padding: 20px 0 !important;
+            .router-box {
+                margin-right: 0!important;
+                .c-list-item {
+                    padding: 0 20px 10px!important;
+                }
+            }
+            >.right-bar {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 718px) {
+    .header {
+        .san-dao-gang {
+            display: block !important;
+        }
+
+        .can-hide {
+            display: none !important;
+        }
+
+        .search-input {
+            display: none !important;
+        }
+
+        .showing-in-small {
+            display: block;
+        }
+
+        #nav {
+            display: none !important;
+        }
+
+        .active-input-showing-in-small {
+            ::v-deep .ivu-input {
+                width: 180px !important;
+
+            }
+        }
+
+    }
+    .layout-index {
+        >.flex-between-center {
+            padding: 20px 0 !important;
+            .router-box {
+                margin-right: 0!important;
+                .c-list-item {
+                    padding: 0 20px 10px!important;
+                }
+            }
+            >.right-bar {
+                display: none;
+            }
+        }
+    }
+}

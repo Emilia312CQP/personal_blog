@@ -1,0 +1,99 @@
+ @mixin theme($color) {
+     #app {
+
+         .nav-bar .ivu-menu-item-active a {
+             color: $color !important;
+         }
+
+         .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active {
+
+             border-color: $color !important;
+         }
+
+         .ivu-menu-light.ivu-menu-horizontal .ivu-menu-item:hover {
+             color       : $color;
+             border-color: $color !important;
+
+             >a {
+                 color: $color !important;
+
+             }
+
+         }
+
+         .ivu-menu {
+
+             .ivu-menu-item:hover,
+             .ivu-menu-item-selected {
+                 color: $color;
+             }
+
+         }
+
+         .ivu-menu-submenu {
+             .ivu-menu-submenu-title:hover {
+                 color: $color;
+             }
+
+             &:hover {
+                 color       : $color;
+                 border-color: $color !important;
+
+             }
+         }
+
+
+         #back-to-top,
+         .item-list .item:hover,
+         img,
+         .ivu-breadcrumb-item-link {
+             color: $color;
+
+         }
+
+         a:hover {
+             color: $color !important;
+
+         }
+
+         .icon-item.active {
+             background-color: $color;
+             color           : #ffffff;
+
+         }
+
+
+         .router-box {
+             .ivu-timeline .ivu-timeline-item-content {
+                 &:hover {
+                     color     : $color;
+                     transform : scale(1.12);
+                     transition: transform .3s;
+                 }
+             }
+         }
+
+         .ivu-input:focus {
+             border-color: $color;
+             box-shadow  : none
+         }
+
+
+     }
+
+
+
+
+ }
+
+ .theme-default{
+     @include theme(#3eaf7c);
+
+ }
+
+ .theme-green {
+     @include theme(#3eaf7c);
+ }
+ .theme-blue{ @include theme(#2196F3);}
+ 
+ .theme-pink{ @include theme(#FEC6DF);}

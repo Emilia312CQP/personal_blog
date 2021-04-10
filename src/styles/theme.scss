@@ -1,0 +1,233 @@
+// button类型的tag-标签
+.tag {
+    padding        : 6px 12px;
+    font-size      : 20px;
+    color          : rgb(102, 102, 102);
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    margin         : 8px;
+    border-radius  : 4px;
+    box-shadow     : 0 1px 4px 0 rgba(0, 0, 0, 0.15);
+    cursor         : pointer;
+    overflow       : hidden;
+    transition     : background-color .3s, color .3s;
+}
+
+.tag .tag-num {
+    width        : 24px;
+    height       : 24px;
+    line-height  : 1.5;
+    padding      : 2px;
+    margin-left  : 6px;
+    border-radius: 50%;
+    color        : #ffffff;
+    text-align   : center;
+    font-size    : 14px;
+    overflow     : hidden;
+
+}
+
+.tag-theme0 {
+    background: #fde5e7;
+
+    .tag-num {
+        background: #cf1322;
+    }
+
+    &:hover {
+        background-color: rgb(249, 190, 195);
+    }
+}
+
+.tag-theme1 {
+    background: #ffeee8;
+
+    .tag-num {
+        background: #fa541c;
+    }
+
+    &:hover {
+        background-color: rgb(254, 212, 198);
+    }
+}
+
+.tag-theme2 {
+    background: #fef5e7;
+
+    .tag-num {
+        background: #f39c12;
+    }
+
+    &:hover {
+        background-color: rgb(252, 230, 196);
+    }
+}
+
+// 圆角类型的tag标签
+.border-tag {
+    position      : relative;
+    top           : 13px;
+    text-transform: capitalize;
+    display       : inline-block;
+    border-radius : 4px;
+    background    : #f8f8f8;
+    text-align    : center;
+    overflow      : hidden;
+    transition    : all .2s;
+    font-size     : 13px;
+    line-height   : 1.5;
+    padding       : 8px 6px;
+    cursor        : pointer;
+    margin-left   : 12px;
+
+    &:hover {
+        background-color: #fff;
+    }
+
+}
+
+.border-tag0 {
+    color : #e91526;
+    border: 1px solid #e91526;
+}
+
+.border-tag1 {
+    color : #fa6533;
+    border: 1px solid #fa6533;
+}
+
+.border-tag2 {
+    color : #f4a62a;
+    border: 1px solid #f4a62a;
+}
+
+.border-tag3 {
+    color : #40d47f;
+    border: 1px solid #40d47f;
+}
+
+.border-tag4 {
+    color : #2bbe69;
+    border: 1px solid #2bbe69;
+}
+
+// 深色的tag标签
+.dark-tag {
+    display       : inline-block;
+    vertical-align: middle;
+    min-width     : 24px;
+    margin        : 4px 6px;
+    padding       : 4px 8px;
+    border-radius : 8px;
+    box-shadow    : 0 1px 6px 0 rgba(0, 0, 0, 0.15);
+    color         : #ffffff;
+    font-size     : 14px;
+    text-align    : center;
+    text-transform: capitalize;
+    overflow      : hidden;
+    cursor        : pointer;
+    transition    : background-color .3s;
+
+
+}
+
+.dark-tag-0 {
+    background: #e91526;
+
+    &:hover {
+        background: #d81626;
+    }
+}
+
+.dark-tag-1 {
+    background: #fa6533;
+
+    &:hover {
+        background: rgb(250, 74, 14);
+    }
+}
+
+.dark-tag-2 {
+    background: #40d47f;
+
+    &:hover {
+        background: rgb(44, 194, 107);
+    }
+}
+
+.dark-tag-3 {
+    background: #2bbe69;
+
+    &:hover {
+        background: rgb(35, 157, 86);
+    }
+}
+
+.dark-tag-4 {
+    background: #16dddd;
+
+    &:hover {
+        background: rgb(18, 184, 184);
+    }
+}
+
+.dark-tag-5 {
+    background: #0a7bf4;
+
+    &:hover {
+        background: rgb(9, 104, 206);
+    }
+}
+
+.dark-tag-6 {
+    background: #b27deb;
+
+    &:hover {
+        background: rgb(161, 96, 231);
+    }
+}
+
+.dark-tag-7 {
+    background: #ed44a0;
+
+    &:hover {
+        background: rgb(234, 34, 144);
+    }
+}
+
+.dark-tag-8 {
+    background: #e91526;
+
+    &:hover {
+        background: rgb(197, 18, 32);
+    }
+}
+
+.dark-tag-9 {
+    background: #f4a62a;
+
+    &:hover {
+        background: rgb(254, 247, 236);
+    }
+}
+
+.block {
+    width        : 15px;
+    height       : 15px;
+    border-radius: 2px;
+    display      : inline-block;
+    margin-right : 10px;
+}
+
+.block-green {
+    background-color: #3eaf7c;
+}
+
+.block-blue {
+    background-color: #2196F3;
+}
+
+.block-pink {
+    background-color: #FEC6DF;
+}

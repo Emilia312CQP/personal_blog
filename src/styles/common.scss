@@ -1,0 +1,83 @@
+html{
+    width: 100%;
+    body{
+        width: 100%;
+        background-color: #F8F8F8;
+       color: #242424;
+    }
+    #app{
+        width: 100%;
+    }
+
+}
+
+.box-shadow{
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    &:hover{
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+
+    }
+}
+.box-radius{
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    margin-bottom: 16px;
+    &:hover{
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+
+    }
+}
+
+//border
+.border-color{
+    border-bottom: 1px solid #e0dcdc;
+}
+// font
+.text-color{color:#242424;}
+.grey-icon{
+    color:#aaa
+}
+.deep-grey{
+    color:rgb(122, 120, 120);
+
+}
+// flex
+// 两端对齐、垂直居中
+.flex-between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+//竖向居中对齐
+.flex-col-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+// z-index
+.z-top{
+    z-index: 1000;
+}
+
+// state
+.cursor-pointer{
+    cursor: pointer;
+}
+#back-to-top{
+    position: fixed;
+    right: 20px;
+    top: 800px;
+    font-size: 40px;
+      
+}
+.ivu-breadcrumb>span:last-child>.ivu-breadcrumb-item-link:first-child {
+    color: rgb(122, 120, 120)!important;
+}
+.ivu-breadcrumb span{
+    font-size: 16px;
+    font-weight: 500;
+}
